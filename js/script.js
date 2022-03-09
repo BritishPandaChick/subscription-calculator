@@ -18,6 +18,7 @@ subDurationElement.addEventListener("change", function (e) {
   updateSubscriptionDiv();
 });
 
+//Create message for what plan and price user picked 
 var updateSubscriptionDiv = function () {
   var monthlyCost = 5;
 
